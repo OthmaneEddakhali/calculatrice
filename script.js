@@ -13,6 +13,8 @@
             res = a * b;
         } else if (operation == '/') {
             res = a / b;
+        }else if (operation == '%') {
+            res = a % b;
         }
 
         // 3. Afficher le résultat dans le 3e champ
